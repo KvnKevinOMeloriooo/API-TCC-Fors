@@ -15,7 +15,7 @@ export async function inserirCliente(cliente) {
       cliente.ano,
       cliente.placa
     ])
-  
+
     cliente.id = resp.insertId;
   return cliente;
 }
